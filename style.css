@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Jost&family=Poppins:ital,wght@1,500&family=Tajawal:wght@300&display=swap');
+
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0%;
+    font-weight: 900;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: grid;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-bar{
+    background-color: red;
+    top: 0;
+    width: 100%;
+    padding: 0px 10px 0px 0px;
+    text-align: end;
+    position: fixed;
+    display: none;
+}
+
+
+.title-bar button{
+    background: none;
+    padding: 0px 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.title-bar button:active{
+    background-color: rgb(214, 63, 63);
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+form{
+    display: flex;
+}
+
+h1 span{
+    color: red;
+}
+
+.itm{
+    display: grid;
+}
+
+input{
+    background-color: rgb(238, 238, 238);
+    font-size: 2.5em;
+    padding: 0px 10px;
+    width: 70vh;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212), inset 5px 5px 5px rgba(255, 255, 255, 0.363);
+    outline: none;
+    border-radius: 15px;
+}
+
+a{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    width: 5em;
+    cursor: pointer;
+    border: none;
+    font-size: 2em;
+    border-radius: 15px;
+    margin-left: 10px;
+    user-select: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212), inset 5px 5px 5px rgba(255, 255, 255, 0.363);
+}
+
+a:active{
+    transform: scale(0.90);
+    transition: 0.1s ease;
+}
+
+
+textarea{
+    resize: none;
+    margin-top: 15%;
+    font-size: 2em;
+    height: 20vh;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #EAFAF1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212), inset 5px 5px 5px rgba(255, 255, 255, 0.363);
+    outline: none;
+}
